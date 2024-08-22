@@ -4,6 +4,8 @@
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
@@ -14,4 +16,11 @@ body {
 
 a {
     color: #538ABF;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
