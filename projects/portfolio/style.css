@@ -46,26 +46,36 @@ a {
 
 .apresentacao__links {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
 }
 
 .apresentacao__links__link {
-    background-color: #6AAED9;
-    width: 200px;
-    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #74B0E4;
+    width: 378px;
+    border-radius: 8px;
     text-align: center;
     padding: 10px 0px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 18px;
-    color: #000000;
+    color: #F6F6F6;
     text-decoration: none;
+    align-items: center;
 }
 
-
-.apresentacao__conteudo {
-    width: 615px; /* Define a largura do elemento como 615 pixels. */
-    display: flex; /* Define que o elemento será um contêiner flexível, permitindo o uso de propriedades flexbox. */
-    flex-direction: column; /* Alinha os itens flexíveis em uma coluna, ou seja, de cima para baixo. */
-    gap: 30px; /* Define um espaço de 30 pixels entre cada item dentro do contêiner flexível. */
+.apresentacao__links__link:hover{
+    background-color: #272727;
 }
+
