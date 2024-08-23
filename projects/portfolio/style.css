@@ -6,7 +6,6 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -21,7 +20,7 @@ a {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    margin: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,5 +76,15 @@ a {
 
 .apresentacao__links__link:hover{
     background-color: #272727;
+}
+
+.rodape {
+    padding: 20px;
+    color: #000000;
+    background-color: #74B0E4;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
