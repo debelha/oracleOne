@@ -22,5 +22,5 @@ Repository for storing tasks related to the Oracle One program
 [HTML and CSS: Classes, positioning, and Flexbox](https://drive.google.com/file/d/1Dgp4a-vf-AQCKEoWavFvLBZSLEgOwvIZ/view?usp=drive_link)<br>
 [HTML and CSS: header, footer, and CSS variables](https://drive.google.com/file/d/1wOC6TA4CYxyauTEA0sgggTUrahZ7T-Mv/view?usp=drive_link)<br>
 [HTML and CSS: working with responsiveness and project deployment](https://drive.google.com/file/d/1-BpLg2msKzzh9Ty8nyHD4kOVzpyPnhhc/view?usp=drive_link)<br>
-
+[Git and GitHub: sharing and collaborating on projects](https://drive.google.com/file/d/1MEHLjT4fNq9A6zl0WN0QGfe8rCzk4l_P/view?usp=drive_link)<br>
 
