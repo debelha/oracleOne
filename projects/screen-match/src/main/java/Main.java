@@ -4,10 +4,19 @@ public class Main {
         System.out.println("Filme: Top Gun: Maverick");
 
      int anoLancamento = 2022;
+     System.out.println("Ano lançamento: " + anoLancamento);
+
      boolean incluindoNoPlano = true;
      double notaDoFilme = 8.1;
+     double media = (9.8 + 6.3 + 8.0) / 3;
+     System.out.println("Media: " + media);
 
-     System.out.println("Ano lançamento: " + anoLancamento);
+     String sinopse;
+     sinopse = """
+               Filme de aventura com galã dos anos 80.
+               Muito bom!
+               """;
+        System.out.println(sinopse);
     }
 }
 
