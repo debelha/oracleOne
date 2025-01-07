@@ -28,6 +28,25 @@ public class main {
             System.out.println(menu);
             opcao = leitura.nextInt();
 
+            if (opcao == 1) {
+                System.out.println("Saldo: " + saldo);
+            } else if (opcao == 2) {
+                System.out.println("Valor da transferência: " );
+                double valorTransferencia = leitura.nextDouble();
+                if (valorTransferencia > saldo) {
+                    System.out.println("Não há saldo suficiente para realizar essa transferência");
+                } else {
+                    saldo -= valorTransferencia;
+                    System.out.println("Saldo atualizado: " + saldo);
+                }
+            } else if (opcao == 3) {
+                System.out.println("Valor recebido: ");
+                double valor = leitura.nextDouble();
+                saldo += valor;
+                System.out.println("Saldo atualizado: " + saldo);
+            } else if (opcao != 4) {
+                System.out.println("Opção inválida");
+            }
         }
     }
 }
