@@ -5,7 +5,12 @@ public class Main {
         filme1.ano = 2020;
         filme1.duracao = 190;
 
-        System.out.println(filme1.titulo);
-        System.out.println(filme1.ano);
+        filme1.exibeFichaTecnica();
+        filme1.avalia(8);
+        filme1.avalia(5);
+        filme1.avalia(10);
+        System.out.println(filme1.somaAvaliacoes);
+        System.out.println(filme1.totalAvaliacoes);
+        System.out.println(filme1.pegaMedia());
     }
 }
