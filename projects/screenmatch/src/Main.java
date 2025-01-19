@@ -1,9 +1,11 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class Main {
     public static void main(String[] args) {
         Filme filme1 = new Filme();
-        filme1.titulo = "Glass Onion";
-        filme1.ano = 2020;
-        filme1.duracao = 190;
+        filme1.setNome("Glass Onion");
+        filme1.setAno(2020);
+        filme1.setDuracao(190);
 
         filme1.exibeFichaTecnica();
         filme1.avalia(8);
