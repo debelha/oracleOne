@@ -1,3 +1,4 @@
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -25,5 +26,16 @@ public class Main {
         serie1.setEpisodiosPorTemporada(10);
         serie1.setMinutosPorEpisodio(50);
         System.out.println("Duração da série: " + serie1.getDuracaoEmMinutos());
+
+        Filme filme2 = new Filme();
+        filme2.setNome("Jungle Beat");
+        filme2.setAno(2024);
+        filme2.setDuracaoEmMinutos(130);
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(filme1);
+        calculadora.inclui(filme2);
+        calculadora.inclui(serie1);
+        System.out.println(calculadora.getTempoTotal());
     }
 }
