@@ -27,6 +27,7 @@ Repository for storing tasks related to the Oracle One program
 [ChatGPT and development](https://drive.google.com/file/d/1OEXy6mTxyPl537mKnUocHYr_42pPTeHr/view?usp=sharing)<br>
 [ChatGPT and development](https://drive.google.com/file/d/1OEXy6mTxyPl537mKnUocHYr_42pPTeHr/view?usp=sharing)<br>
 [Spring AI: Integrate a Spring application with OpenAI](https://drive.google.com/file/d/10pyWRtPrS2oYgOaq2vQIarT4eDf5VCii/view?usp=drive_link)<br>
+[Java POO](https://drive.google.com/file/d/1HggCfBSH92ISRo0ilvfZgiU7Zu-BmSbP/view?usp=drive_link)<br>
 
 
 
