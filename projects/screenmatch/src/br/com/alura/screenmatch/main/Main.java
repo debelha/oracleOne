@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.main;
+
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
 import br.com.alura.screenmatch.modelos.Episodio;
@@ -8,9 +10,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Filme filme1 = new Filme();
-        filme1.setNome("Glass Onion");
-        filme1.setAno(2020);
+        Filme filme1 = new Filme("Glass Onion", 2020);
         filme1.setDuracaoEmMinutos(190);
         System.out.println("Duração do filme: " + filme1.getDuracaoEmMinutos());
 
@@ -22,18 +22,14 @@ public class Main {
         System.out.println(filme1.pegaMedia());
         System.out.println(filme1.pegaMedia());
 
-        Serie serie1 = new Serie();
-        serie1.setNome("Vis a vis");
-        serie1.setAno(2020);
+        Serie serie1 = new Serie("Vis a vis",2020);
         serie1.exibeFichaTecnica();
         serie1.setTemporadas(5);
         serie1.setEpisodiosPorTemporada(10);
         serie1.setMinutosPorEpisodio(50);
         System.out.println("Duração da série: " + serie1.getDuracaoEmMinutos());
 
-        Filme filme2 = new Filme();
-        filme2.setNome("Jungle Beat");
-        filme2.setAno(2024);
+        Filme filme2 = new Filme("Jungle Beat", 2024);
         filme2.setDuracaoEmMinutos(130);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
@@ -51,8 +47,8 @@ public class Main {
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
 
-        var filme3 = new Filme();
-        filme3.setNome("Dog Ville");
+        var filme3 = new Filme("Dog Ville", 2003);
+        //filme3.setNome("Dog Ville");
         filme3.setAno(2003);
         filme3.setDuracaoEmMinutos(130);
         filme3.avalia(10);

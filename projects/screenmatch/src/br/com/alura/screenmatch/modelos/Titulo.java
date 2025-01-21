@@ -8,6 +8,11 @@ public class Titulo {
     private int totalAvaliacoes;
     private int duracaoEmMinutos;
 
+    public Titulo(String nome, int ano) {
+        this.nome = nome;
+        this.ano = ano;
+    }
+
     public String getNome() {
         return nome;
     }

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e173be63-4287-46a8-b943-f17e28ad1db3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../musicplayer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicplayer/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../musicplayer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicplayer/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e173be63-4287-46a8-b943-f17e28ad1db3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,11 +69,22 @@
       <workItem from="1736902953201" duration="17441000" />
       <workItem from="1737328480868" duration="695000" />
       <workItem from="1737329200258" duration="1650000" />
-      <workItem from="1737334677805" duration="2854000" />
+      <workItem from="1737334677805" duration="6366000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
